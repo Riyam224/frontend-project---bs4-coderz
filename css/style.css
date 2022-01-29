@@ -1,0 +1,204 @@
+/* TODO navbar  */
+
+:root {
+    --mainYellow: rgb(255, 240, 25);
+    --lightYellow: rgb(228, 228, 166);
+    --mainDark: #121213;
+    --lightColor: #fff;
+    --mainGrey: rgb(96, 98, 83);
+}
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background: var(--lightYellow);
+    color: var(--mainDark);
+    border-bottom: 3px solid var(--mainYellow);
+}
+
+.navbar-brand {
+    color: var(--mainDark) !important;
+    font-weight: bold;
+}
+
+.logo {
+    color: var(--mainYellow)!important;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid var(--mainDark);
+    border-radius: 3px;
+    background: #000;
+}
+
+/* Todo carousel  */
+
+.carousel slide {
+    overflow: hidden;
+    height: 40px;
+}
+
+/* Todo about */
+
+.about {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+.narrow {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.narrow h1 {
+    margin-bottom: 30px;
+}
+
+.narrow p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.narrow .info {
+    color: var(--mainYellow);
+}
+
+section.about img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+section.about div.img {
+    background-image: url('../Images/img/food-fork-fruits-69767.jpg');
+    height: 506px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+section.about div.img p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--mainDark);
+    margin: 0;
+    font-size: 20px;
+    background: rgba(246, 226, 46, 0.35);
+    padding: 20px;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+}
+
+/* Todo service  */
+
+section.service {
+    margin-top: 7%;
+    width: 100%;
+    height: 400px;
+    background: url('../Images/img/landscape-sky-clouds-hd-wallpaper-55787.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.service p {
+    font-size: 20px;
+    border: 2px solid var(--mainYellow);
+    color: var(--lightYellow);
+    font-weight: bold;
+    margin-top: 15%;
+    padding: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/* Todo product  */
+
+section.product {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+section.product img {
+    width: 100%;
+    height: 250px;
+    border: 2px solid var(--mainYellow);
+}
+
+/* todo choose  */
+
+section.choose {
+    width: 100%;
+    height: 150px;
+    margin: 80px 0;
+    padding: 50px 0;
+    background: var(--lightYellow);
+}
+
+section.choose i, section.choose div.part {
+    float: left;
+}
+
+section.choose div.part p, section.choose div.part h2 {
+    margin: 0;
+}
+
+section.choose i {
+    position: relative;
+    top: 20px;
+    width: 20%;
+}
+
+section.choose div.part {
+    width: 80%;
+}
+
+section.choose div.part h2 {
+    color: var(--mainDark);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.choose div.part p {
+    color: var(--mainDark);
+    margin-top: 5%;
+    font-size: 10px;
+}
+
+/* TODO footer  */
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 20px 0;
+}
+
+footer p {
+    font-size: 10px;
+    color: var(--mainDark);
+}
+
+footer i {
+    padding: 10px;
+    background: var(--mainYellow);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
